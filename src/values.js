@@ -1,0 +1,35 @@
+
+const values = [
+  { id: 1, name: 'Accomplishment', description: 'A sense of achievement and success.' },
+  { id: 2, name: 'Adventure', description: 'New, exciting, and daring experiences.' },
+  { id: 3, name: 'Authenticity', description: 'Being true to yourself and your values.' },
+  { id: 4, name: 'Balance', description: 'Harmony between different aspects of life.' },
+  { id: 5, name: 'Community', description: 'A sense of belonging and connection.' },
+  { id: 6, name: 'Compassion', description: 'Empathy and kindness towards others.' },
+  { id: 7, name: 'Creativity', description: 'The use of imagination and original ideas.' },
+  { id: 8, name: 'Curiosity', description: 'A strong desire to learn or know something.' },
+  { id: 9, name: 'Freedom', description: 'The power to act, speak, or think as one wants.' },
+  { id: 10, name: 'Friendship', description: 'Close and supportive relationships.' },
+  { id: 11, name: 'Growth', description: 'Personal development and continuous improvement.' },
+  { id: 12, name: 'Honesty', description: 'Being truthful and sincere.' },
+  { id: 13, name: 'Humor', description: 'Lightheartedness and the ability to laugh.' },
+  { id: 14, name: 'Independence', description: 'Self-reliance and self-sufficiency.' },
+  { id: 15, name: 'Joy', description: 'A feeling of great pleasure and happiness.' },
+  { id: 16, name: 'Kindness', description: 'The quality of being friendly, generous, and considerate.' },
+  { id: 17, name: 'Knowledge', description: 'The acquisition of wisdom, and understanding.' },
+  { id: 18, name: 'Leadership', description: 'The ability to guide or inspire others.' },
+  { id: 19, name: 'Love', description: 'Deep affection and care for others.' },
+  { id: 20, name: 'Loyalty', description: 'Faithfulness and devotion to people or causes.' },
+  { id: 21, name: 'Nature', description: 'A connection to the natural world.' },
+  { id: 22, name: 'Order', description: 'A state of peace, organization, and predictability.' },
+  { id: 23, name: 'Peace', description: 'Inner tranquility and freedom from disturbance.' },
+  { id: 24, name: 'Power', description: 'The ability to have influence or control.' },
+  { id: 25, name: 'Security', description: 'Safety, stability, and freedom from fear.' },
+  { id: 26, name: 'Service', description: 'Helping others and contributing to society.' },
+  { id: 27, name: 'Spirituality', description: 'A connection to something larger than oneself.' },
+  { id: 28, name: 'Spontaneity', description: 'Acting on sudden impulses and desires.' },
+  { id: 29, name: 'Stability', description: 'Consistency and predictability in life.' },
+  { id: 30, name: 'Wealth', description: 'The abundance of valuable possessions or money.' }
+];
+
+export default values;
