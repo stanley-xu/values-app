@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SwipeScreen from './SwipeScreen';
+import ChoiceScreen from './ChoiceScreen';
 import ResultsScreen from './ResultsScreen';
 import values from './values';
 import './App.css';
@@ -16,16 +16,22 @@ function App() {
     setShowResults(true);
   };
 
+  const handleBack = () => {
+    setUserChoices(prevChoices => prevChoices.slice(0, prevChoices.length - 1));
+  };
+
   return (
     <div className="App">
       <h1>Discover Your Values</h1>
       {showResults ? (
         <ResultsScreen choices={userChoices} />
       ) : (
-        <SwipeScreen 
+        <ChoiceScreen 
           values={values} 
           onChoice={handleChoice} 
           onCompletion={handleCompletion} 
+          onBack={handleBack}
+          currentProgress={userChoices.length}
         />
       )}
     </div>
